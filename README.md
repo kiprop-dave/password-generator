@@ -11,6 +11,7 @@ This is my solution to the password generator challenge on frontend mentor.
 - [My process](#my-process)
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
+  - [Deployment](#deployment)
   - [Useful resources](#useful-resources)
 - [Author](#author)
 
@@ -32,7 +33,7 @@ Users should be able to:
 
 ### Links
 
-- Live Site URL: [here](https://your-live-site-url.com)
+- Live Site URL: [here](https://password-generator-seven-theta.vercel.app/)
 
 ## My process
 
@@ -84,6 +85,10 @@ const Bar = styled.div`
   border: solid 2px ${({ fillCell }) => (fillCell ? "#41f246" : "white")};
 `;
 ```
+
+### Deployment
+
+The app is deployed using [Vercel](https://vercel.com/)
 
 ### Useful resources
 
