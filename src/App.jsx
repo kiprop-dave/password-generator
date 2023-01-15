@@ -107,7 +107,7 @@ function App () {
 
   function generatePassword () {
     const { length, upperCase, lowerCase, numbers, symbols } = passwordParams;
-    const possibleChars = ["ABCDEFGHIJKLMNOPQRSTUVWXYZ", "abcdefghijklmnopqrstuvwxyz", "0123456789", " !#$%&()*+,-./:;<=>?@[\]^_`{|}~"];
+    const possibleChars = ["ABCDEFGHIJKLMNOPQRSTUVWXYZ", "abcdefghijklmnopqrstuvwxyz", "0123456789", "!#$%&()*+,-./:;<=>?@[\]^_`{|}~"];
     let result = "";
     if (length > 0) {
       for (let i = 0; i < length; i++) {
